@@ -5,11 +5,11 @@ A particle simulation program written in java as practices.
 
 Prioity queue forms skeleton of this program making it event-driven.
 
-TimerTask schedule the taskes updating the images periodically.
+TimerTask schedules the taskes and update the images periodically.
 
 ![](BouncingParticles4.gif)
 
-So far, TimerTask could cause data race when there are too many particles.
+So far, TimerTask could still cause data race when there are too many particles.
 
 ![](BouncingParticles20.gif)
 
